@@ -1,0 +1,20 @@
+.tagbutton {
+  background-color: rgb(206, 171, 171);
+  border: 1;
+  font-size: rem;
+  box-shadow: 0px 5px 10px rgba(darken(dodgerblue, 40%));
+  cursor: pointer;
+  border-radius: 5px;
+  border-bottom: 4px solid lighten(gray, 70%);
+}
+.tagbutton:hover {
+  transform: scale(1.03);
+}
+.tagbutton:active {
+  transform: scale(0.98);
+}
+
+.eighteen.wide.column.ui.segment {
+  width: 355px;
+  margin-top: 0px;
+}
